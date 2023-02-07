@@ -1,0 +1,380 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Calibri", "Arial", "Tahoma", sans-serif;
+   margin: 0;
+}
+
+.Absatz_Überschrift {
+   font-weight: bold;
+}
+
+#Menüleiste {
+   background-color: #1b89fa;
+   width: 100%;
+   position: fixed;
+}
+
+#Menüeinträge {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+}
+#Menüeinträge > li {
+   color: white;
+   text-align: center;
+}
+
+li {
+   cursor: pointer;
+}
+
+img {
+   height: auto;
+   border-radius: 6px;
+}
+
+.Über_mich {
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 140px;
+   display: flex;
+}
+
+.Ausbildung {
+   padding-top: 160px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+}
+
+.Studium {
+   padding-top: 160px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+}
+
+.Berufserfahrung {
+   padding-top: 160px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+}
+
+.container_left,
+.container_right {
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+#Kontaktdaten_Rahmen {
+   background-color: #1b89fa;
+   margin-top: 80px;
+   padding: 15px;
+}
+
+#Kontaktdaten_Überschrift {
+   color: white;
+   text-align: center;
+   padding-bottom: 5px;
+}
+
+#Kontaktdaten_Details {
+   /*display: flex;*/
+   /*text-align: center;*/
+   /*justify-content: center;*/
+   color: white;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+@media screen and (min-width: 1600px) {
+   #Menüleiste {
+      padding: 0.3rem;
+   }
+   #Menüeinträge > li {
+      font-size: 1.3rem;
+      margin-left: 50px;
+      margin-right: 50px;
+   }
+   .Container_Auflösung {
+      max-width: 1150px;
+   }
+   img {
+      width: 540px;
+   }
+   p {
+      font-size: 1.2rem;
+      line-height: 1.75rem;
+   }
+   .container_left {
+      margin-right: 70px;
+   }
+   .container_right {
+      margin-left: 70px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.3rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: flex;
+      justify-content: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 1.2rem;
+      margin-left: 30px;
+      margin-right: 30px;
+   }
+}
+
+@media screen and (max-width: 1600px) {
+   #Menüleiste {
+      padding: 0.3rem;
+   }
+   #Menüeinträge > li {
+      font-size: 1.3rem;
+      margin-left: 50px;
+      margin-right: 50px;
+   }
+   .Container_Auflösung {
+      max-width: 1140px;
+   }
+   img {
+      width: 540px;
+   }
+   p {
+      font-size: 1.2rem;
+      line-height: 1.75rem;
+   }
+   .container_left {
+      margin-right: 65px;
+   }
+   .container_right {
+      margin-left: 65px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.3rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: flex;
+      justify-content: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 1.2rem;
+      margin-left: 30px;
+      margin-right: 30px;
+   }
+}
+
+@media screen and (max-width: 1300px) {
+   #Menüleiste {
+      padding: 0.15rem;
+   }
+   #Menüeinträge > li {
+      font-size: 1.25rem;
+      margin-left: 45px;
+      margin-right: 45px;
+   }
+   .Container_Auflösung {
+      max-width: 1040px;
+   }
+   img {
+      width: 490px;
+   }
+   p {
+      font-size: 1.15rem;
+      line-height: 1.7rem;
+   }
+   .container_left {
+      margin-right: 60px;
+   }
+   .container_right {
+      margin-left: 60px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.25rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: flex;
+      justify-content: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 1.15rem;
+      margin-left: 27px;
+      margin-right: 27px;
+   }
+}
+
+@media screen and (max-width: 1100px) {
+   #Menüleiste {
+      padding: 0;
+   }
+   #Menüeinträge > li {
+      font-size: 1.2rem;
+      margin-left: 40px;
+      margin-right: 40px;
+   }
+   .Container_Auflösung {
+      max-width: 940px;
+   }
+   img {
+      width: 440px;
+   }
+   p {
+      font-size: 1.1rem;
+      line-height: 1.65rem;
+   }
+   .container_left {
+      margin-right: 55px;
+   }
+   .container_right {
+      margin-left: 55px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.2rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: flex;
+      justify-content: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 1.1rem;
+      margin-left: 24px;
+      margin-right: 24px;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+   #Menüleiste {
+      padding: 0;
+   }
+   #Menüeinträge > li {
+      font-size: 1.15rem;
+      margin-left: 35px;
+      margin-right: 35px;
+   }
+   .Container_Auflösung {
+      max-width: 890px;
+   }
+   img {
+      width: 420px;
+   }
+   p {
+      font-size: 1.05rem;
+      line-height: 1.6rem;
+   }
+   .container_left {
+      margin-right: 50px;
+   }
+   .container_right {
+      margin-left: 50px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.15rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: flex;
+      justify-content: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 1.05rem;
+      margin-left: 21px;
+      margin-right: 21px;
+   }
+}
+
+@media screen and (max-width: 960px) {
+   #Menüleiste {
+      padding: 0;
+   }
+   #Menüeinträge > li {
+      font-size: 1.1rem;
+      margin-left: 30px;
+      margin-right: 30px;
+   }
+   .Container_Auflösung {
+      max-width: 800px;
+   }
+   img {
+      width: 375px;
+   }
+   p {
+      font-size: 1rem;
+      line-height: 1.55rem;
+   }
+   .container_left {
+      margin-right: 40px;
+   }
+   .container_right {
+      margin-left: 40px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.1rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: flex;
+      justify-content: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 1rem;
+      margin-left: 18px;
+      margin-right: 18px;
+   }
+}
+
+@media screen and (max-width: 848px) {
+   #Menüleiste {
+      padding: 0;
+   }
+   #Menüeinträge > li {
+      font-size: 1.05rem;
+      margin-left: 25px;
+      margin-right: 25px;
+   }
+   .Container_Auflösung {
+      max-width: 600px;
+   }
+   img {
+      width: 280px;
+   }
+   p {
+      font-size: 0.95rem;
+      line-height: 1.4rem;
+   }
+   .container_left {
+      margin-right: 20px;
+   }
+   .container_right {
+      margin-left: 20px;
+   }
+   #Kontaktdaten_Überschrift {
+      font-size: 1.05rem;
+   }
+
+   #Kontaktdaten_Details {
+      display: block;
+      justify-content: initial;
+      text-align: center;
+   }
+
+   #Kontaktdaten_Details > p {
+      font-size: 0.95rem;
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+}
