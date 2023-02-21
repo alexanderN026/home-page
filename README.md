@@ -1,3 +1,2 @@
 # Preview
-
-![Screenshot 2023-02-08 175506](https://user-images.githubusercontent.com/109736645/217598409-77d8bb81-106a-46bc-8e5d-ccb2b17bf5f9.jpg)
+![Screenshot 2023-02-21 103201](https://user-images.githubusercontent.com/109736645/220305732-77e63fa3-9421-4484-9454-9e13f57e9ed6.jpg)
