@@ -1,2 +1,2 @@
 # Preview
-![Screenshot 2023-02-21 103201](https://user-images.githubusercontent.com/109736645/220305732-77e63fa3-9421-4484-9454-9e13f57e9ed6.jpg)
+![Screenshot 2023-06-06 170634](https://github.com/alexanderN026/home-page/assets/109736645/5fa0b071-c48f-4bda-ac29-54f1f440ec4a)
